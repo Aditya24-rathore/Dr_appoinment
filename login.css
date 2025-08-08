@@ -66,5 +66,62 @@ body{
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
-
 /* nav end */
+
+/* register css */
+.bg{
+    background-image: url("./assests/dequipment.jpg");
+    height:520px;
+    width: 100%;
+    background-size: cover;
+    opacity: 1;
+    padding-top: 100px;
+}
+
+.signup{
+    height: 350px;
+    width:40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-right:30% ;
+}
+
+.signup h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: #e16408;
+    height: 50px;
+    color: white;
+    font-style: 500;
+}
+
+
+.signupp {
+    text-align: center;
+    font-size: 22px;
+    gap: 55px;
+}
+
+.signupp input{
+font-size: 20px;
+}
+
+.signupp button{
+    height: 35px;
+    width: 160px;
+    background-color: #e16408;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+}
+
+.signupp span{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.signupp input::placeholder{
+font-size: 15px;
+}
+/* register css  end*/

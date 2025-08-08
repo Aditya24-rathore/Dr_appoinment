@@ -69,6 +69,7 @@ body{
 
 /* nav end */
 
+/* register css */
 .bg{
     background-image: url("./assests/loginimg1.jpeg");
     height:550px;
@@ -124,4 +125,4 @@ font-size: 20px;
 .signupp input::placeholder{
 font-size: 15px;
 }
-
+/* register css  end*/
