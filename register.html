@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="register.css">
+<title>Document</title>
+</head>
+<body>
+<nav class="parent">
+<img src="./assests/logo.svg" alt="">
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dc.html">Doctor Consultation</a></li>
+        <li><a href="diagno.html">Diagnostics</a></li>
+        <li><a href="hcare.html">Home Care</a></li>
+        <li><a href="physio.html">Physio</a></li>
+        </ul>
+        <!-- <button style="background-color: black;border: 1px solid black;"><a href="" style="color:#e16408">Login</a></button>         -->
+        <button><a href="">Signup/login</a></button> 
+</nav>
+
+<div class="bg">
+    <div class="signup">
+        <h1 >Sign Up</h1>
+        <div class="signupp">
+        <form action="">
+            Name<span style="color: red;">*</span>: <input type="text" placeholder="Enter name here" id="name"> <br><br>
+            Contact<span style="color: red;">*</span>: <input type="text" placeholder="Enter mobile number" id="num"> <br><br>
+            Email<span style="color: red;">*</span>: <input type="text" placeholder="Enter email here" id="email"> <br><br>
+            Password<span style="color: red;">*</span>: <input type="password" placeholder="xxxxxx" id="pass"> <br><br>
+            Confirm Password<span style="color: red;">*</span>: <input type="password" placeholder="xxxxxx" id="cpass"> <br><br>
+            <span>Already a member? Click here to <a href="login.html">login</a></span> <br>
+            <button onclick=" return register()">Register</button>
+        </form>
+        </div>
+    </div>
+</div>
+
+<script src="register.js"></script>
+</body>
+</html>

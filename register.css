@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav start */
+.parent{
+    height: 80px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 0.1px solid gray;
+}
+
+.parent img{
+    height: 70px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.parent ul{
+    color:black;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 550;
+}
+
+.parent ul li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+
+.parent button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    height:40px;
+    width: 140px;
+    border: 1px solid #F5F5DC;
+    background-color: #e16408;
+    color: white;
+    margin-right:20px;
+    cursor: pointer;
+    transition: all 3s ease;
+    border-radius:30px
+    
+}
+
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
+.parent button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* nav end */
+
+.bg{
+    background-image: url("./assests/loginimg1.jpeg");
+    height:550px;
+    width: 100%;
+    background-size: cover;
+    opacity: 1;
+    padding-top: 50px;
+}
+
+.signup{
+    height: 460px;
+    width:40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-right:30% ;
+}
+
+.signup h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: #e16408;
+    height: 50px;
+    color: white;
+    font-style: 500;
+}
+
+
+.signupp {
+    text-align: center;
+    font-size: 25px;
+    gap: 50px;
+}
+
+.signupp input{
+font-size: 20px;
+}
+
+.signupp button{
+    height: 35px;
+    width: 160px;
+    background-color: #e16408;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+}
+
+.signupp span{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.signupp input::placeholder{
+font-size: 15px;
+}
+
