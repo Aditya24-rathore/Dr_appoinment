@@ -10,6 +10,7 @@
 <link rel="icon" href="./assests/logo.svg">
 <link rel="stylesheet" href="style.css">
 <title>Document</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <nav class="parent">
@@ -32,14 +33,19 @@
                 <h1>No.1 <span style="color:#e16408;">Pathology</span> Management System for Small & Large Labs</h1>
                 <p>MocDoc,<span style="color:#676565;"> the essential boost your Pathology Lab needs. Praised for its simplicity and power.</span></p>
                 <p><span style="color:#e16408;">15+ Test Categories,</span> All-In-One Solution.</p>
-                <button><a href="">Book a Demo</a></button>
+                <button data-aos="fade-down" data-aos-duration="3000"><a href="">Book a Demo</a></button>
         </div>
   </div>
   <div class="demoimg">
-        <img src="./assests/demoimg.webp" alt="">
+        <img src="./assests/demoimg.webp" alt="" data-aos="flip-left" data-aos-duration="3000">
   </div>
 </div>
 <!-- Booking Html-e -->
 
+<!-- AOS library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

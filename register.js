@@ -58,6 +58,35 @@ let register=()=>{
        document.querySelector("#cpass").placeholder="Confirm password not match"
         return false
    }
+
+   localStorage.setItem("Username",Name)
+   localStorage.setItem("Usernumber",Num)
+   localStorage.setItem("Useremail",Email)
+   localStorage.setItem("Userpass",Pass)
+   localStorage.setItem("Usercpass",Cpass)
+
+   location.href="login.html"
+   return false
 }
 
+
+let login=()=>{
+    let Loginemail=document.querySelector("#loginemail").value.trim()
+    let Loginpass=document.querySelector("#loginpass").value.trim()
+    let Logincpass=document.querySelector("#logincpass").value.trim()
+
+    let localemail=localStorage.getItem("Useremail")
+    let localpass=localStorage.getItem("Userpass")
+    let localcpass=localStorage.getItem("Usercpass")
+    
+    if(Loginemail==localemail && Loginpass==localpass && Logincpass==localcpass){
+        location.href="index.html"
+        return false
+    }
+    else{
+        alert("Invalid email or password")
+    }
+
+    return false
+}
 
