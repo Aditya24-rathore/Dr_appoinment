@@ -128,9 +128,9 @@ background-size:cover
 
  /* Test css-s */
 .testsmain{
-    height: 650px;
+    height: 620px;
     width: 100%;
-    background-color: white;
+    background-color:white;
 }
 
 .teststext h1{
@@ -150,18 +150,19 @@ color: #e16408;
 }
 
 .swiper {
-      width: 88%;
+      width: 86%;
       height: 450px;
     }
 
-.swiper-slide {
+    .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background:white;
+      background:transparent;
       display: flex;
       justify-content: center;
       align-items: center;
-      /* border: 2px solid black; */
+      border: 1px solid rgb(0, 0, 0,0.2);
+      border-radius: 10px;
     }
 
     .swiper-slide img {
@@ -171,15 +172,41 @@ color: #e16408;
       object-fit: cover;
     }
 
-    #swiper-inside img{
-      height: 180px;
-      width:280px;
-      border-radius: 20px;
+    .swipertext img{
+     height: 200px;
+     width: 90%;
+     margin-left: 5%;
+     margin-top: 5%;
+     border-radius: 15px;
     }
 
-    #swiperdiv{
-        margin-left:13%;
-        margin-top: 10%;
+    .swipertext h1{
+        font-size: 25px;
+        color: #333333;
     }
+
+    .swipertext p{
+        font-size: 20px;
+        color: #e97451;
+    }
+
+    .swipertext button a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+    }
+
+    .swipertext button{
+        height: 40px;
+        width: 150px;
+        background-color: #e16408;
+        border: none;
+        border-radius:50px;
+    }
+
+    #time{
+        color: #000000;
+    }
+
 /* Test css-e */
  
