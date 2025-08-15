@@ -10,3 +10,4 @@ var swiper = new Swiper(".mySwiper", {
         delay: 1500,
         disableOnInteraction: false,
   }});
+

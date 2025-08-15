@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0px;
     z-index: 1;
     border-bottom: 0.1px solid gray;
@@ -128,7 +128,7 @@ background-size:cover
 
  /* Test css-s */
 .testsmain{
-    height: 620px;
+    height: 650px;
     width: 100%;
     background-color:white;
 }
@@ -210,3 +210,61 @@ color: #e16408;
 
 /* Test css-e */
  
+/* Scrolltext css-s */
+.scrolltext{
+    height: 360px;
+    width: 100%;
+    background-color: white;
+}
+
+.scrolltext1{
+    height:100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.scrolltext1 h1{
+    font-size: 35px;
+    color: #e16408;
+}
+
+.scrolltext1 p{
+    font-size: 20px;
+    color: #676565;
+}
+
+.icons{
+    height: 200px;
+    width: 100%;
+    /* background-color: #333333; */
+    margin-top: 30px;
+}
+
+.icons1{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: #F5F5DC; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconsimg1{
+background-color:white;
+width: 30%;
+/* border: 1px solid black; */
+text-align: center;
+}
+
+.iconsimg1 h1{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* Scrolltext css-e */
+
+
+/* Book LAb Test css-s */
+
+/* Book LAb Test css-s */
