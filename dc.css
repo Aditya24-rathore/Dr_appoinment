@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav start */
+.parent{
+    height: 80px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+    z-index: 1;
+    border-bottom: 0.1px solid gray;
+}
+
+.parent img{
+    height: 70px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.parent ul{
+    color:black;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 550;
+}
+
+.parent ul li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+
+.parent button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    height:40px;
+    width: 140px;
+    border: 1px solid #F5F5DC;
+    background-color: #e16408;
+    color: white;
+    margin-right:20px;
+    cursor: pointer;
+    transition: all 3s ease;
+    border-radius:30px
+    
+}
+
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
+.parent button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* nav end */
+
+ /* Booking css-s  */
+.demo{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.demotext{
+    width: 50%;
+    /* background-color: aqua; */
+    height: 100%;
+   
+}
+
+.demoimg img{
+height: 100%;
+width: 100%;
+background-size:cover
+}
+
+.demotext1{
+    height:80%;
+    width:80%;
+    background-color: white;
+    padding-top:5% ;
+    padding-left: 10%;
+    text-align: center;
+    padding: 7.5%;
+}
+
+.demotext1 h1{
+    font-size: 39.6px;
+    font-weight: 600;
+}
+
+.demotext1 p{
+    font-size: 28px;
+    padding-top: 5px;
+}
+
+.demotext1 button{
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    background-color: #e16408;
+    border-radius: 10px;
+    border: none;
+    margin-top: 28px;
+}
+
+.demotext1 button a{
+    text-decoration: none;
+    color: black;
+}
+/* Booking css-e  */
