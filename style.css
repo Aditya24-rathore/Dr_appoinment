@@ -266,5 +266,72 @@ text-align: center;
 
 
 /* Book LAb Test css-s */
+.booktest{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.booktest1{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.bookcardmain{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bookcard{
+    height: 100%;
+    border: 1px solid black;
+    width:30%;
+    text-align: center;
+    margin: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:25px;
+}
+
+.bookcard img{
+    height: 180px;
+}
+
+.bookcard h2{
+ font-size:30px;
+ color: #e16408;
+}
+
+.bookcard p{
+    font-size: 20px;
+    color: #333333;
+}
+
+.bookcard button{
+    height: 40px;
+    width: 140px;
+    background-color: #e16408;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.bookcard button a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.booktest1 h1{
+    font-size: 38px;
+    color: #e16408;
+    font-weight: 600;
+}
 
 /* Book LAb Test css-s */
