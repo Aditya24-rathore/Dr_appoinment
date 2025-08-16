@@ -71,7 +71,7 @@ body{
 
  /* Booking css-s  */
 .demo{
-    height: 500px;
+    height: 400px;
     width: 100%;
     display: flex;
 }
@@ -85,7 +85,7 @@ body{
 
 .demoimg img{
 height: 100%;
-width: 100%;
+width: 90%;
 background-size:cover
 }
 
@@ -100,8 +100,9 @@ background-size:cover
 }
 
 .demotext1 h1{
-    font-size: 39.6px;
+    font-size: 35px;
     font-weight: 600;
+    padding-top: 35px;
 }
 
 .demotext1 p{
@@ -110,17 +111,264 @@ background-size:cover
 }
 
 .demotext1 button{
-    height: 60px;
+    height: 50px;
     width: 180px;
     font-size: 18px;
     background-color: #e16408;
-    border-radius: 10px;
+    border-radius: 50px;
     border: none;
     margin-top: 28px;
 }
 
 .demotext1 button a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0,0.8);
 }
 /* Booking css-e  */
+
+/* Scrolltext css-s */
+.scrolltext{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+
+.scrolltext1{
+    height:100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.scrolltext1 h1{
+    font-size: 35px;
+    color: #e16408;
+}
+
+.scrolltext1 p{
+    font-size: 20px;
+    color: #676565;
+}
+
+
+/* Book LAb Test css-s */
+.booktest{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.booktest1{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.bookcardmain{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bookcard{
+    height: 100%;
+    border: 1px solid black;
+    width:30%;
+    text-align: center;
+    margin: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:25px;
+}
+
+.bookcard img{
+    height: 180px;
+}
+
+.bookcard h2{
+ font-size:25px;
+ color: #e16408;
+}
+
+.bookcard p{
+    font-size: 18px;
+    color: #333333;
+}
+
+.bookcard button{
+    height: 40px;
+    width: 140px;
+    background-color: #e16408;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.bookcard button a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.booktest1 h1{
+    font-size: 38px;
+    color: #e16408;
+    font-weight: 600;
+}
+
+/* Book LAb Test css-s */
+
+/* footer css */
+.footer{
+    /* height: 350px; */
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-top:1px solid rgb(0, 0, 0,0.4) ;
+}
+
+.footerlogo img{
+    /* height: 200px; */
+    width: 200px;
+}
+
+.footericon i{
+    color: #e97451;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
+}
+
+
+
+.quicklinks ul li{
+  text-decoration: none;
+  list-style: none;
+  color: #333333;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.quicklinks p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #F5F5DC;
+    margin-top: 48px;
+}
+
+.quicklinks{
+    padding-bottom: 60px;
+}
+
+.enquire p{
+    font-size: 24px;
+    color: #F5F5DC;
+    font-family: "Raleway", sans-serif;
+}
+
+.quicklinks ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+}
+
+.enquire button{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: #F5F5DC;
+    border: 1px solid #F5F5DC;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 3s ease;
+}
+
+.enquire button:hover{
+    background-color: #e97451;
+    color: #1a1a1a;
+    border: 1px solid #F5F5DC;
+}
+
+  .enquireform{
+    height: 30px;
+    width: 200px;
+}
+
+.enquire button{
+    width:180px;
+    background-color: #e16408;
+    border: 1px solid #F5F5DC;
+    color: black;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    /* height: 40px; */
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 180px;
+    transition: all 3s ease;
+}
+
+.enquire{
+    margin-top: -15px;
+}
+
+.copyright{
+    /* height: 80px; */
+    background-color:#e16408;
+    border-top:1px solid rgb(0, 0, 0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #F5F5DC;
+}
+
+.footerimg{
+    height: 120px;
+    width: 100%;
+    background-color:white;
+}
+
+.footerimgmain{
+    height: 100%;
+    width: 84%;
+    margin-left:8%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img6{
+    margin-left: 50px;
+}
+
+#img1{
+    height: 100px;
+    width: 120px;
+     margin-top: 20px;
+}
+
+#img4{
+    width:300px;
+    height: 120px;
+}
+
+/* footercss-end */
