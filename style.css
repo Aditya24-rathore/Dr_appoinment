@@ -121,7 +121,7 @@ background-size:cover
 
 .demotext1 button a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0,0.8);
 }
  /* Booking css-e  */
 
@@ -212,9 +212,17 @@ color: #e16408;
  
 /* Scrolltext css-s */
 .scrolltext{
-    height: 360px;
+    height: 450px;
     width: 100%;
     background-color: white;
+    display: flex;
+}
+
+.groupimg img{
+    height: 300px;
+    /* width: 100%; */
+    margin-top: 75px;
+    margin-right: 50px;
 }
 
 .scrolltext1{
