@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="appointmnet.css"> -->
+</head>
+<style>
+  /* Full page background image */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assests/doc01.webp') no-repeat center center/cover; /* replace with your image */
+  }
+
+  /* Form container */
+  .form-container {
+    background: rgba(255, 255, 255, 0.2); /* transparent form */
+    backdrop-filter: blur(10px); /* blur effect */
+    padding: 15px 20px; /* smaller padding for shorter height */
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    width: 280px; /* compact width */
+    text-align: center;
+  }
+
+  /* Form title */
+  .form-container h2 {
+    color: #e16408; /* updated color */
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+  }
+
+  /* Labels */
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e16408; /* updated color */
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  /* Inputs, select & textarea */
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+    width: 100%;
+    padding: 6px; /* smaller padding for shorter height */
+    margin-bottom: 10px;
+    border: 2px solid #e16408; /* updated color */
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent input */
+  }
+
+  /* Focus effect */
+  .form-container input:focus,
+  .form-container select:focus,
+  .form-container textarea:focus {
+    border-color: #ffd700; /* yellow */
+    box-shadow: 0 0 5px #ffd700;
+  }
+
+  /* Button */
+  .form-container button {
+    width: 100%;
+    padding: 8px; /* smaller button for shorter height */
+    background-color: #e16408; /* updated color */
+    color: #fffacd; /* soft yellow text */
+    font-size: 0.95rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #ffd700; /* yellow hover */
+    color: #e16408; /* orange text on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  /* Responsive for small screens */
+  @media(max-width: 400px) {
+    .form-container {
+      width: 90%;
+      padding: 12px 15px;
+    }
+  }
+</style>
+
+
+<body>
+
+
+  <div class="form-container">
+  <h2>🩺 Book Doctor Appointment</h2>
+  <form onsubmit="return book(event)">
+    
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+
+    <label for="age">Age</label>
+    <input type="number" id="age" min="0" placeholder="Enter your age" required>
+
+    <label for="gender">Gender</label>
+    <select id="gender" required>
+      <option value="">-- Select --</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="contact">Contact Number</label>
+    <input type="tel" id="contact" placeholder="Enter your contact number" required>
+
+    <label for="time">Preferred Time</label>
+    <select id="time" required>
+      <option value="">-- Select --</option>
+      <option value="10:00 AM">10:00 AM</option>
+      <option value="12:00 PM">12:00 PM</option>
+      <option value="2:00 PM">2:00 PM</option>
+      <option value="4:00 PM">4:00 PM</option>
+    </select>
+
+    <label for="symptoms">Address</label>
+    <textarea id="symptoms" rows="3" placeholder="Enter address" required></textarea>
+
+    <button type="submit" onclick="return book()">Book Appointment</button>
+  </form>
+</div>
+<script src="CRUD.js"></script>
+</body>
+</html>
