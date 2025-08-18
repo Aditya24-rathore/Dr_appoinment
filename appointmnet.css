@@ -62,3 +62,93 @@
 }
 
 /* nav end */
+
+
+  /* Full page background image */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./assests/doc01.webp') no-repeat center center/cover; /* replace with your image */
+  }
+
+  /* Form container */
+  .form-container {
+    background: rgba(255, 255, 255, 0.2); /* transparent form */
+    backdrop-filter: blur(10px); /* blur effect */
+    padding: 15px 20px; /* smaller padding for shorter height */
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    width: 280px; /* compact width */
+    text-align: center;
+  }
+
+  /* Form title */
+  .form-container h2 {
+    color: #e16408; /* updated color */
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+  }
+
+  /* Labels */
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e16408; /* updated color */
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  /* Inputs, select & textarea */
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+    width: 100%;
+    padding: 6px; /* smaller padding for shorter height */
+    margin-bottom: 10px;
+    border: 2px solid #e16408; /* updated color */
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent input */
+  }
+
+  /* Focus effect */
+  .form-container input:focus,
+  .form-container select:focus,
+  .form-container textarea:focus {
+    border-color: #ffd700; /* yellow */
+    box-shadow: 0 0 5px #ffd700;
+  }
+
+  /* Button */
+  .form-container button {
+    width: 100%;
+    padding: 8px; /* smaller button for shorter height */
+    background-color: #e16408; /* updated color */
+    color: #fffacd; /* soft yellow text */
+    font-size: 0.95rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #ffd700; /* yellow hover */
+    color: #e16408; /* orange text on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  /* Responsive for small screens */
+  @media(max-width: 400px) {
+    .form-container {
+      width: 90%;
+      padding: 12px 15px;
+    }
+  }

@@ -92,7 +92,7 @@ let formopen = async (id) => {
         <label>Preferred Time</label>
         <input type="time" id="uptime" value="${data.time}" required>
 
-        <label>Symptoms</label>
+        <label>Address</label>
         <textarea id="upsymptoms" rows="3" required>${data.symptoms}</textarea>
 
         <button type="submit">Update</button>
