@@ -80,7 +80,9 @@ let login=()=>{
     let localcpass=localStorage.getItem("Usercpass")
     
     if(Loginemail==localemail && Loginpass==localpass && Logincpass==localcpass){
-        location.href="index.html"
+        
+       alert("Welcome" + localStorage.getItem(username))
+       location.href="index.html"
         return false
     }
     else{

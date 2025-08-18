@@ -1,13 +1,3 @@
 {
-  "appointment": [
-    {
-      "name": "sayali",
-      "age": "21",
-      "contact": "8817465145",
-      "gender": "Female",
-      "time": "13:31",
-      "symptoms": "bhopal",
-      "id": "22eb"
-    }
-  ]
+  "appointment": []
 }
